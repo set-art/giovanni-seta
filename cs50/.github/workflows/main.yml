@@ -75,3 +75,6 @@ jobs:
               tag_name: "v${{ steps.make_version.outputs.version }}",
               tag_commitish: "${{ github.sha }}"
             })
+git add cs50
+git commit -m "Adicionando a biblioteca CS50"
+git push origin main
